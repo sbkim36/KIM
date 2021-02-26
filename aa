@@ -1,0 +1,4 @@
+git clone --recursive https://github.com/microsoft/LightGBM.git
+cd LightGBM/python-package
+# export CXX=g++-7 CC=gcc-7  # macOS users, if you decided to compile with gcc, don't forget to specify compilers (replace "7" with version of gcc installed on your machine)
+python setup.py install
